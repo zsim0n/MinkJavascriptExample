@@ -33,13 +33,14 @@ Selenium gives you ability to run `@javascript` tagged scenarios in real browser
 
     ``` bash
     java -jar selenium-server.jar
-
+    ```
+    
     Note: you can use the following additional arguments to setup the selenium-server
 
         - -Dwebdriver.ie.driver=IEDriverServer.exe
         - -Dwebdriver.chrome.driver=chromedriver.exe
         - -Dwebdriver.firefox.bin=firefox.exe
-    ```
+    
 
 ### Run tests
 
