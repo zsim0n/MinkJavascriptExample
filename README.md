@@ -18,14 +18,14 @@ curl http://getcomposer.org/installer | php
 php composer.phar install
 ```
 
-### Selenium WebDriver
+### Selenium
 
-You'll need to install Selenium2 to test the `@javascript` feature.
+You'll need to install Selenium to test the `@javascript` feature.
 Selenium gives you ability to run `@javascript` tagged scenarios in real browser.
 
-1. Download latest Selenium2 jar from the [Selenium website](http://seleniumhq.org/download/)
+1. Download latest Selenium jar from the [Selenium website](http://seleniumhq.org/download/)
 
-2. Download additional Web drivers if necessary 
+2. Download additional web drivers if necessary 
     - [Chrome driver](http://code.google.com/p/chromedriver/downloads/list)
     - [Internet explorer](http://code.google.com/p/selenium/downloads/list)
 
@@ -34,7 +34,6 @@ Selenium gives you ability to run `@javascript` tagged scenarios in real browser
     ``` bash
     java -jar selenium-server.jar
     ```
-    
     Note: you can use the following additional arguments to setup the selenium-server
 
         - -Dwebdriver.ie.driver=IEDriverServer.exe
